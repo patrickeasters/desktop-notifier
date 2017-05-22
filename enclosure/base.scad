@@ -1,8 +1,6 @@
 // Adapted from bayonet_container_v1-2
 // https://www.thingiverse.com/thing:56910
 
-use <utils/build_plate.scad>
-
 // type to produce
 _part = "base"; // [base,lid,separator]
 
@@ -28,10 +26,10 @@ _topBottomThickness = 1.0;
 _lipHeight = 3.0;
 
 // how much the locking bayonets protrude (larger values may be needed for larger diameters)
-_bayonetDepth = 0.4;
+_bayonetDepth = 1.2;
 
 // gap to place between moving parts to adjust how tightly the pieces fit together
-_partGap = 0.08;
+_partGap = 0.2;
 
 // use lower resolutions to adjust values, set to high for final rendering
 _resolution = 120; // [30:Low, 60:Medium, 120:High]

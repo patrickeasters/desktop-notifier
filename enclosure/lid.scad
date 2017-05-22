@@ -26,10 +26,10 @@ _topBottomThickness = 1.0;
 _lipHeight = 3.0;
 
 // how much the locking bayonets protrude (larger values may be needed for larger diameters)
-_bayonetDepth = 0.4;
+_bayonetDepth = 1.2;
 
 // gap to place between moving parts to adjust how tightly the pieces fit together
-_partGap = 0.08;
+_partGap = 0.2;
 
 // use lower resolutions to adjust values, set to high for final rendering
 _resolution = 120; // [30:Low, 60:Medium, 120:High]
@@ -38,8 +38,8 @@ _resolution = 120; // [30:Low, 60:Medium, 120:High]
 
 difference() {
     make();
-    cylinder(h=100, r=15, center=true, $fn=_resolution);
-    rotate ([90,0,0]) translate([0,22,0]) cylinder(h=100, r=1.5, $fn=_resolution);
+    cylinder(h=100, r=16, center=true, $fn=_resolution);
+    rotate ([90,0,0]) translate([0,20,0]) cylinder(h=100, r=2, $fn=_resolution);
 }
 
 
