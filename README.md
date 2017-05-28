@@ -21,7 +21,7 @@ The Arduino runs a simple sketch and is configured to be detected as a USB keybo
 ## Wiring it Up
 There's not much to it, luckily! Since we're using the 16u2 chip rather than the IO chip, the switch is hooked up to pins on the ICSP header.
 
-<img src="https://raw.githubusercontent.com/patrickeasters/distractify-button/master/extra/layout_bb.png" style="max-width: 500px">
+<img src="https://raw.githubusercontent.com/patrickeasters/distractify-button/master/extra/layout_bb.png" width="500">
 
 ## What's Included
 * Arduino sketch
