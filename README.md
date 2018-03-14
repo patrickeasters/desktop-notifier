@@ -1,6 +1,6 @@
 # distractify-button
 Arduino sketch and accompanying shell script to send a desktop notification via
-a physical button patrickeasters
+a physical button
 
 <img src="https://media.giphy.com/media/PK7G39mRyNaRa/giphy.gif">
 
